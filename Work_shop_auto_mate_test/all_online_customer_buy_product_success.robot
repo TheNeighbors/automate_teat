@@ -86,6 +86,8 @@ ${DEV_URL}   https://www.allonline.7eleven.co.th/
     Element Should Contain    xpath=//*[@id="stepModel"]/div[1]/div[2]/div[2]/table/tbody[1]/tr[3]/td[2]    CCPets กล่องไม้ กระดาษข่วน รูปปลา SC592N
     Element Should Contain    xpath=//*[@id="stepModel"]/div[1]/div[2]/div[2]/table/tbody[1]/tr[3]/td[3]    1
     Element Should Contain    xpath=//*[@id="stepModel"]/div[1]/div[2]/div[2]/table/tbody[1]/tr[3]/td[4]    ฿ 399
+    Element Should Contain    xpath=//*[@id="js-invoice-details-tbody"]/tr[2]/td[2]/b    ฿ 35
+    Element Should Contain    id=totalAmount    ฿ 434
     Element Should Contain    xpath=//*[@id="js-invoice-details-tbody"]/tr[17]/td[2]/b     117
 
 เลือก ชำระเงินด้วย QR payment และชำระเงิน
